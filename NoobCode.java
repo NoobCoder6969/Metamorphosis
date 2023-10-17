@@ -65,13 +65,13 @@ class NoobCode
     static void PL()
     {
         Scanner pu=new Scanner(System.in);
-        System.out.println("Pokimane/Lana");
+        System.out.println("A/B");
         String cho=pu.next();
         cho=cho.toLowerCase();
-        if(cho.equals("pokimane"))
-            System.out.println("ooo, You're a real pervert");
-        else if(cho.equals("lana"))
-            System.out.println("kono Hentai");
+        if(cho.equals("A"))
+            System.out.println("I don't CARE");
+        else if(cho.equals("B"))
+            System.out.println("..., bruh");
         else
         {
             System.out.println("at least pick a valid choice, you DipShit");
