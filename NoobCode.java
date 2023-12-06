@@ -42,7 +42,7 @@ class NoobCode
 
     static void rr() throws Exception
     {
-        java.awt.Desktop.getDesktop().browse(new java.net.URI("http://tiny.cc/t4s7tz"));
+        java.awt.Desktop.getDesktop().browse(new java.net.URI("http://tiny.cc/6dsgvz"));
     }
 
     static void TM()
