@@ -3,40 +3,18 @@
 void eliminateCommonCharacters(char string1[100],char string2[100])
 {
     char resultstring1[100], resultstring2[100];
+    int length1=strlen(string1);
+    int length 2 = strlen(string2);
     int resultString1Index=0, resultString2Index=0, common;
-    for (int i=0;string1[i]!='\0';i++)
+    for(int i=0; i<len1; i++)
     {
-        common=0;
-        for (int j=0;string2[j]!='\0';j++)
+        for(int j=0;j<len2;j++)
         {
-            if(string1[i]==string2[j])
-            {
-                common=1;
-                break;
-            }
-        }
-        if(!common)
-        {
-            resultstring1[resultString1Index++]=string1[i];
+            if(string1[i]++string2[j])
+            string1[i]=string[j]=' ';
         }
     }
-    for (int i=0;string2[i]!='\0';i++)
-    {
-        int common=0;
-        for (int j=0;string1[j]!='\0';j++)
-        {
-            if(string2[i]==string1[j])
-            {
-                common=1;
-                break;
-            }
-        }
-        if(!common)
-        {
-            resultstring2[resultString2Index++]=string2[i];
-        }
-    }
-    
+    for()
     printf("\nFirst resulting string  : %s",resultstring1);
     printf("\nSecond resulting string  : %s",resultstring2);
 }
