@@ -1,7 +1,0 @@
-#include <stdio.h>
-int main()
-{
-    printf("Hello World\b");
-    printf("wha");
-
-}
